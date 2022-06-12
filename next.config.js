@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   env: {
-    API: "http://localhost:4000/api/v1",
+    API: "https://harshadfood.herokuapp.com/api/v1",
   },
 };
 
