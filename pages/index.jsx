@@ -28,7 +28,7 @@ const Home = () => {
       <Grid container spacing={3} marginY={3}>
         {menuState.menu.map((item) => {
           return (
-            <Grid item>
+            <Grid item key={item._id}>
               <MenuItem menu={item} />
             </Grid>
           );

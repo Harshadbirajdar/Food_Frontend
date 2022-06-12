@@ -21,7 +21,7 @@ const CartItem = () => {
     if (!cartItem) return null;
     const { item } = cartItem;
     return (
-      <Card sx={{ display: "flex", my: 2 }}>
+      <Card sx={{ display: "flex", my: 2 }} key={item._id}>
         <Box sx={{ display: "flex", flexDirection: "row" }}>
           <CardContent sx={{ flex: "1 0 auto" }}>
             <img height="100em" src={item.image[0]} />

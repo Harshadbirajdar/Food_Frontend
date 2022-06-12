@@ -22,6 +22,7 @@ const HomeCareousel = () => {
     >
       {list.map((item) => (
         <Paper
+          key={item._id}
           style={{
             padding: "0.2em 1em",
             margin: "0.2em ",
